@@ -28,7 +28,7 @@ $container = get_theme_mod('understrap_container_type');
 
 <header class='header-bg'>
 
-
+<!-- LOGO -->
 
 	<div class="logo">
 		<!-- Your site title as branding in the menu -->
@@ -55,7 +55,7 @@ $container = get_theme_mod('understrap_container_type');
 
 
 
-	<!-- ******************* The Navbar Area ******************* -->
+	<!-- ******************* BARRE DE NAVIGATION ******************* -->
 	<div id="wrapper-navbar main-nav" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e('Skip to content', 'understrap'); ?></a>
@@ -66,9 +66,6 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="container" >
 		<?php endif; ?>
 
-
-
-					
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -92,6 +89,17 @@ $container = get_theme_mod('understrap_container_type');
 			<?php endif; ?>
 
 		</nav><!-- .site-navigation -->
+
+		<div class="infos-header">
+			<div class="slogan">
+				<h3><?php echo get_bloginfo('description'); ?></h3>
+			</div>
+
+			<div class="btn">
+				<a href="#">Découvrez </br> tout les bienfaits</a>
+			</div>
+		</div>
+
 		</header>
 
 	</div><!-- #wrapper-navbar end -->
