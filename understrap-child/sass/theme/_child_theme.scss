@@ -1,0 +1,16 @@
+body {
+    font-family: "Montserrat", "Arial", sans-serif; 
+}
+
+.header-bg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .logo {
+        margin-top: 2%;
+    }
+    .main-nav{
+        margin-top: 4%;
+    }
+}
+

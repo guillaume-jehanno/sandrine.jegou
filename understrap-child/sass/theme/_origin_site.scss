@@ -49,12 +49,10 @@
     height: 100vh;
     padding: 50px 0; }
   
-  header {
-    background: url("../images/background_header02.jpg");
-    background-size: 190%;
-    min-width: 320px;
-    max-height: 320px;
-    min-height: 320px; }
+ .header-bg {
+    background: url("../images/background_header02.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh; }
   
   #mobile-header {
     position: absolute;
@@ -461,7 +459,7 @@
         padding: 25px; }
   
     #main-nav {
-      margin-top: 40px; }
+     padding-top: 40px; }
   
     .header_wrap h3 {
       font-size: 2rem;
